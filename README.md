@@ -4,7 +4,7 @@
 
 ScummEditor is a tool that can be used to export and import back graphics on Scumm v5 and v6 games. It can also be used to see the parsed data structure on these games (not all block types are parsed at the moment).
 
-It was created by Matheus Moreira and was originally developed for internal use at ScummBR translation group (http://www.scummbr.com), to allow our artists to translate the game images that contains english texts.
+It was created by Matheus Moreira and was originally developed for internal use at ScummBR (Brazil) translation group (http://scummbr.org/) to allow their artists to translate the game images that contain english texts.
 
 This tool supports the extraction and injection of the following images:
 
@@ -18,11 +18,19 @@ This tool supports the extraction and injection of the following images:
 
  * Costumes - All frames.
 
-As far as I know this is the only existing tool that allows you change the costumes on scumm games.
+## Version notes
 
-## Thanks
+v1.0.4 This fork's inital version; NET 4.8; x86 release; semver 1.0.3.0 -> 1.0.4
+v1.0.3.0 The sourcecode that was uploaded in 2016 to Github and is kept upstream on this maintenance fork.
+v1.0.1.3 The oldest version i could find, which must have been around for a while, before the creator uploaded the sourcecode. It's available through the Wayback machine [https://web.archive.org/web/20160317045119/http://scummeditor.scummbr.com/ScummEditor1.0.1.3.rar](here)
+
+## Notes by the original creator
+As far as I know this is the only existing tool that allows you change the costumes on scumm games.
+This program utilizes BE.HexEditor to display binary data. More information and download of the control on http://sourceforge.net/projects/hexbox/
+
 I would like to say thank you to Jestar Jokin (http://www.jestarjokin.net/blog/category/scumm/) for his great help and for being so nice with me, providing his source codes and pointing me to links where I could learn a lot about the scumm data and image formats. Without his help, this program never existed.
 
-I also would like to say thanks to SCUMMVM (http://wiki.scummvm.org/index.php/SCUMM/Technical_Reference), SCUMM REVISITED (http://web.archive.org/web/20110224120228/http://goblin.cx/scumm/scummrev/articles/image.html -- webarchive mirror, original site is offline) and SCUMMC (https://github.com/jamesu/scummc/wiki) sites for providing a lot of useful technical information on their sites. I made this tool based on what I learned there.
-
-This program utilizes BE.HexEditor to display binary data. More information and download of the control on http://sourceforge.net/projects/hexbox/
+I also would like to say thanks to 
+SCUMMVM (http://wiki.scummvm.org/index.php/SCUMM/Technical_Reference)
+SCUMM REVISITED (http://web.archive.org/web/20110224120228/http://goblin.cx/scumm/scummrev/articles/image.html -- webarchive mirror, original site is offline) and 
+SCUMMC (https://github.com/jamesu/scummc/wiki) sites for providing a lot of useful technical information on their sites. I made this tool based on what I learned there.
