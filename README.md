@@ -21,7 +21,9 @@ This tool supports the extraction and injection of the following images:
 ## Version notes
 
 v1.0.4 This fork's inital version; NET 4.8; x86 release; semver 1.0.3.0 -> 1.0.4
+
 v1.0.3.0 The sourcecode that was uploaded in 2016 to Github and is kept upstream on this maintenance fork.
+
 v1.0.1.3 The oldest version i could find, which must have been around for a while, before the creator uploaded the sourcecode. It's available through the Wayback machine [https://web.archive.org/web/20160317045119/http://scummeditor.scummbr.com/ScummEditor1.0.1.3.rar](here)
 
 ## Notes by the original creator
