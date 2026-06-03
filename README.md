@@ -1,5 +1,7 @@
 # ScummEditor
 
+![SCUMMEditor showing a room background from Sam & Max Hit the Road](screenshot.png)
+
 ScummEditor is a tool that can be used to export and import back graphics on Scumm v5 and v6 games. It can also be used to see the parsed data structure on these games (not all block types are parsed at the moment).
 
 It was created by Matheus Moreira and was originally developed for internal use at ScummBR translation group (http://www.scummbr.com), to allow our artists to translate the game images that contains english texts.
