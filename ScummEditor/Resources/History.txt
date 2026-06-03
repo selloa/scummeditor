@@ -1,3 +1,9 @@
+1.0.4
+-------
+* Detect Sam & Max Hit the Road floppy installs using SAMNMAX.SM0 and SAMNMAX.SM1 (in addition to SAMNMAX.000 and SAMNMAX.001).
+
+* Target .NET Framework 4.8 for building and running on current Windows versions.
+
 1.0.3.0
 -------
 * Added possibility to edit palette colors. 

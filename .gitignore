@@ -1,5 +1,83 @@
-*.suo
+# ScummEditor — Visual Studio / MSBuild (.NET Framework)
 
+## Build outputs (per-project bin/obj)
+[Bb]in/
+[Oo]bj/
+
+## MSBuild / IDE artifacts
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## Visual Studio / Rider
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.idea/
+*.DotSettings.user
+
+# Legacy VS host process (also covered by [Bb]in/)
 ScummEditor/bin/Debug/ScummEditor.vshost.exe
 ScummEditor/bin/Debug/ScummEditor.vshost.exe.config
 ScummEditor/bin/Debug/ScummEditor.vshost.exe.manifest
+
+## NuGet
+# Restored via nuget_restore_packages.bat; upstream commits packages/ contents.
+*.nupkg
+
+## Publish / ClickOnce
+publish/
+*.application
+*.manifest
+*.deploy
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+*.coverage
+*.coveragexml
+
+## Windows / macOS junk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+.AppleDouble
+.LSOverride
+._*
+
+## Local scratch (not part of upstream solution)
+_tmp_pkgfetch/
+
+## Local game installs for manual testing (copyrighted assets — do not commit)
+ScummEditor/dott/
